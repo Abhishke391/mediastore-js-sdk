@@ -1,0 +1,53 @@
+{
+  "name": "@abhishke391/mediastore",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript SDK for MediaStore file storage service with automatic image optimization",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mediastore",
+    "file-storage",
+    "cdn",
+    "upload",
+    "image-processing",
+    "image-optimization",
+    "typescript",
+    "sdk",
+    "file-upload",
+    "cloud-storage"
+  ],
+  "author": "Abhishke391",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhishke391/mediastore-js-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhishke391/mediastore-js-sdk/issues"
+  },
+  "homepage": "https://github.com/Abhishke391/mediastore-js-sdk#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.10.0",
+    "rollup": "^4.9.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
