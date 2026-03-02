@@ -19,26 +19,21 @@
 
 ### npm
 ```bash
-npm install @abhishke391/mediastore
+npm install @pulasthiabishake/mediastore
 ```
 
 ### yarn
 ```bash
-yarn add @abhishke391/mediastore
-```
-
-### pnpm
-```bash
-pnpm add @abhishke391/mediastore
+yarn add @pulasthiabishake/mediastore
 ```
 
 ## 🚀 Quick Start
-
-### JavaScript (Node.js)
 ```javascript
-const { MediaStore } = require('@abhishke391/mediastore');
+const { MediaStore } = require('@pulasthiabishake/mediastore');
 
 const client = new MediaStore('sk_live_your_api_key');
+const files = await client.files.list();
+```
 
 // Upload a file
 const file = await client.files.upload('./photo.jpg');

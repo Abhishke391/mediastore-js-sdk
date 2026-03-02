@@ -1,5 +1,5 @@
 {
-  "name": "@abhishke391/mediastore",
+  "name": "@pulasthiabishake/mediastore",
   "version": "1.0.0",
   "description": "JavaScript/TypeScript SDK for MediaStore file storage service with automatic image optimization",
   "main": "dist/index.cjs.js",
