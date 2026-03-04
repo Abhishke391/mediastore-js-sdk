@@ -14,6 +14,17 @@ export interface File {
   uploaded_at: string;
 }
 
+export interface TransformParams {
+  w?: number;        // width
+  h?: number;        // height
+  fit?: 'cover' | 'contain' | 'fill';
+  blur?: number;
+  grayscale?: boolean;
+  quality?: number;
+  brightness?: number;
+  contrast?: number;
+}
+
 export interface Account {
   id: number;
   email: string;
